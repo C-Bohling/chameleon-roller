@@ -6,6 +6,6 @@ const roll = (sides) => {
 };
 
 document.getElementById("main").onclick = () => {
-  blueDie.innerHTML = roll(4);
-  yellowDie.innerHTML = roll(8);
+  blueDie.innerHTML = roll(8);
+  yellowDie.innerHTML = roll(6);
 };
